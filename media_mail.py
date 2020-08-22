@@ -1,6 +1,7 @@
 import sys
 import smtplib
 import getpass
+import webbrowser
 import imghdr
 from email.message import EmailMessage
 
