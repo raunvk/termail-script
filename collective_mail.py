@@ -42,10 +42,10 @@ except smtplib.SMTPAuthenticationError:
 n = int(input("\nEnter no. of G-Mail accounts you want to send this mail to :\t"))
 
 for i in range (0,n):
-	target = input("\nEnter G-Mail id no." + i + " :\t")
+	target = input("\nEnter G-Mail id no." + str(i) + " :\t")
 	try:
 		server.sendmail(userid, target, message)
-		print ("\nSuccessfully sent Mail to " + i + " Account !!!\n")
+		print ("\nSuccessfully sent Mail to " + str(i) + " Account !!!\n")
 		time.sleep(1)
 	except KeyboardInterrupt:
 		print ("\nCanceled!!!\n")
