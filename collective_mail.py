@@ -23,7 +23,6 @@ userid = input("\nEnter your G-Mail id :\t")
 passwd = getpass.getpass("\nEnter your Password :\t")
 subj = input("\nEnter the Subject (optional) :\n\n")
 body = input("\nEnter the Message :\n\n")
-count = int(input("\nEnter no. of Mails to send :\t"))
 message = ("From :\t" + userid + "\nSubject :\t" + subj + "\n" + body)
 
 server = smtplib.SMTP("smtp.gmail.com", 587)
