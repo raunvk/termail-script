@@ -34,7 +34,7 @@ try:
 	server.login(userid, passwd)
 except smtplib.SMTPAuthenticationError:
 	print("\nYour G-Mail id or Password maybe incorrect!!!\n") 
-	print("\nOr maybe you have disablead Less-Secure-Apps on your G-Mail account!!!\n")
+	print("\nOr maybe you have disabled Less-Secure-Apps on your G-Mail account!!!\n")
 	resp = int(input("\nEnter 1 to enable Less-Secure-Apps now or Enter 0 to ignore :\n\n"))
 	if (resp == 1):
 		webbrowser.open('http://myaccount.google.com/lesssecureapps', new=2) 
@@ -53,3 +53,5 @@ for i in range (0,n):
 		sys.exit()
 	except:
 		print ("\nFailed to Send!!!\n")
+		
+server.close()
