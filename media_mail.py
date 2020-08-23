@@ -98,8 +98,7 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
 		sys.exit()
 	except:
 		print ("\nFailed to Send!!!\n")
-		
-server.close()
+
 
 
 
