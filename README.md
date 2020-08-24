@@ -1,4 +1,6 @@
-E-Mail using Python
+Disclaimer : [USE DEBIAN BASED OS FOR BEST RESULTS]
+
+E-Mail using Python :
 
 1. Install requirements.txt to install necessary packages [python3 -m pip install -r requirements.txt]
 
