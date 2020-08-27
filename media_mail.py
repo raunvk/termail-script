@@ -4,20 +4,18 @@ import getpass
 import webbrowser
 import imghdr
 from email.message import EmailMessage
+from colored import fg, bg, attr
 
-class bcolors:
-	OKGREEN = '\033[92m'
-	WARNING = '\033[93m'
-	FAIL = '\033[91m'
-	ENDC = '\033[0m'
+color = fg('green')
+reset = attr('reset')
 
 try:
 	file1 = open('media_mail.txt', 'r')
 	print(' ')
-	print (bcolors.OKGREEN + file1.read() + bcolors.ENDC)
+	print (color + file1.read() + reset)
 	file1.close()
 except IOError:
-	print('\nBanner File not found!!!')
+	print('\nBanner File not found!')
 
 
 userid = input("\nEnter your G-Mail id :\t")
@@ -98,6 +96,12 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
 		sys.exit()
 	except:
 		print ("\nFailed to Send!!!\n")
+
+
+
+
+
+
 
 
 
