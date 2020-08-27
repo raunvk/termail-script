@@ -2,7 +2,7 @@
 
 Disclaimer : Use Unix-like OS for best results
 
-Description : Multipurpose G-Mail 
+Description : G-Mail via Command Line Interface
 
 1. Install requirements.txt to install necessary packages [python3 -m pip install -r requirements.txt]
 
