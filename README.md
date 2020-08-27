@@ -1,8 +1,8 @@
 # pymail-dx
 
-Disclaimer : [USE UNIX-LIKE OS FOR BEST RESULTS]
+Disclaimer : Use Unix-like OS for best results
 
-E-Mail using Python :
+Description : Multipurpose G-Mail 
 
 1. Install requirements.txt to install necessary packages [python3 -m pip install -r requirements.txt]
 
