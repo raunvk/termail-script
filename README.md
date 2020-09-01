@@ -1,4 +1,4 @@
-# pymail-dx
+# termail-script
 
 Disclaimer : Use Unix-like OS for best results
 
