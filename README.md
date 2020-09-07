@@ -1,8 +1,10 @@
 # termail-script
 
-Disclaimer : Use Unix-like OS for best results
-
 Description : G-Mail via Command Line Interface
+
+Disclaimer : Make sure you have Python3 installed in your System
+
+For Unix-like OS :
 
 1. Install requirements.txt to install necessary packages [python3 -m pip install -r requirements.txt]
 
