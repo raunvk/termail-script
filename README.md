@@ -1,6 +1,6 @@
 # termail-script
 
-Description : G-Mail via Command Line Interface
+Description : G-Mail hacks using CLI
 
 Disclaimer : Make sure you have Python3 installed in your System
 
