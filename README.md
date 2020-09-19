@@ -1,6 +1,6 @@
 # termail-script
 
-Description : CLI G-Mail Automation
+Description : CLI Mail Automation
 
 Disclaimer : Make sure you have Python3 installed in your System
 
