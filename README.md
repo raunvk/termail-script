@@ -1,4 +1,4 @@
-# termail-script
+# termail-script-cli
 
 Description : CLI Mail Automation
 
