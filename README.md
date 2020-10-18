@@ -1,6 +1,6 @@
 # termail-script
 
-Description : CLI Mail Automation
+Description : CLI based Mail Automation
 
 Disclaimer : Make sure you have Python3 installed in your System
 
