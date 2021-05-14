@@ -8,5 +8,5 @@
 |__|  |__| /__/     \__\ |__| |_______|   |______/   \______/  |__|  |__| |______/      < Raunak Das>
 
 -----------------------------------------------------------------------------------------------------
-Use this script to spoof/spam a target G-Mail account with any number of mails!!!
+Use this script to spam a target G-Mail account with any number of mails!!!
 -----------------------------------------------------------------------------------------------------
