@@ -1,6 +1,6 @@
 # termail-script
 
-**Description** : CLI based Mail Automation
+**Description** : CLI based Mail Bomber & Automation Script
 
 **Requisite** : Make sure you have Python3 and Pip installed in your System
 
