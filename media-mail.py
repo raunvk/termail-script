@@ -10,7 +10,7 @@ color = fg('green')
 reset = attr('reset')
 
 try:
-	file1 = open('media_mail.txt', 'r')
+	file1 = open('media-mail-header.txt', 'r')
 	print(' ')
 	print (color + file1.read() + reset)
 	file1.close()
