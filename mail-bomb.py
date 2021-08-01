@@ -9,7 +9,7 @@ color = fg('green')
 reset = attr('reset')
 
 try:
-	file1 = open('mail_bomb.txt', 'r')
+	file1 = open('mail-bomb-header.txt', 'r')
 	print(' ')
 	print (color + file1.read() + reset)
 	file1.close()
